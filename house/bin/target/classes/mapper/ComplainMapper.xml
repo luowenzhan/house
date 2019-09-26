@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ComplainMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.Complain">
+        <id column="cpid" property="cpid" />
+        <result column="cpcontent" property="cpcontent" />
+        <result column="cptime" property="cptime" />
+        <result column="cpreid" property="cpreid" />
+        <result column="cppida" property="cppida" />
+        <result column="cppidb" property="cppidb" />
+        <result column="by1" property="by1" />
+        <result column="by2" property="by2" />
+    </resultMap>
+
+</mapper>
